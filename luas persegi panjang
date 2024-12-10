@@ -1,0 +1,33 @@
+# fungsi luas persegi panjang
+def luas_persegi_panjang (panjanglebar):
+    return panjang* lebar
+#fungsi luas lingkaran
+def luas_lingkaran (jarijari):
+    return math.pi * (jari-jari *2)
+#fungsi f(x)
+def fungsi_fx (x):
+    return 2*x*+3
+panjang = float(input('Input panjang persegi: '))
+lebar = float(input('Input lebar persegi: '))
+ 
+luas = panjang * lebar;
+print('Luas persegi panjang = ',round(luas,2))
+
+# fungsi luas persegi panjang
+def luas_persegi_panjang (panjanglebar):
+    return panjang* lebar
+#fungsi luas lingkaran
+def luas_lingkaran (r):
+    phi = 3.14
+    return phi * r * r
+r = int(input("masukkan jarijari :"))
+hasil = luas_lingkaran (r)
+print("luas lingkaran", hasil)
+#fungsi f(x)
+def fungsi_fx (x):
+    return 2*x*+3
+panjang = float(input('Input panjang persegi: '))
+lebar = float(input('Input lebar persegi: '))
+ 
+luas = panjang * lebar;
+print('Luas persegi panjang = ',round(luas,2))
